@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{FB93C439-6023-45E1-84EE-135152044F79}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlazorPizzaStore/MainLayout.razor">
+    <Files>
+      <File FileName="BlazorPizzaStore/wwwroot/lib/jquery/package.json" Line="14" Column="4" />
+      <File FileName="BlazorPizzaStore/wwwroot/index.html" Line="10" Column="11" />
+      <File FileName="BlazorPizzaStore/MainLayout.razor" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlazorPizzaStore" expanded="True">
+            <Node name="BlazorPizzaStore" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="css" expanded="True">
+                      <Node name="bootstrap.css" expanded="True">
+                        <Node name="bootstrap.min.css" expanded="True" />
+                      </Node>
+                      <Node name="bootstrap.bundle.js" expanded="True">
+                        <Node name="bootstrap.bundle.min.js" expanded="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                  <Node name="jquery" expanded="True">
+                    <Node name="package.json" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="MainLayout.razor" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BlazorPizzaStore PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

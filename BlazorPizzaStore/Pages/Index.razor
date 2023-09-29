@@ -1,0 +1,21 @@
+﻿@page "/"
+@page "/Index"
+<h1>Choose Customer</h1>
+<form>
+    <div class="form-group m-2">
+        <label class="control-label"> Customer: </label>
+        <select class="form-control" @bind="CustomerId">
+            <option value=""selected>Select a Customer...</option>
+            <option value="Test1"> Test1</option>
+            <option value="Test2"> Test2</option>
+        </select>
+    </div>
+    <div class="form-group m-2">
+        <a class="btn-primary"
+           href="/PointOfSale/@CustomerId">GO</a>
+    </div>
+</form>
+
+@code{
+    public string? CustomerId { get; set; }
+}
