@@ -1,17 +1,21 @@
 ﻿<Properties StartupConfiguration="{FB93C439-6023-45E1-84EE-135152044F79}|https">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BlazorPizzaStore/MainLayout.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlazorPizzaStore/wwwroot/index.html">
     <Files>
-      <File FileName="BlazorPizzaStore/wwwroot/lib/jquery/package.json" Line="14" Column="4" />
-      <File FileName="BlazorPizzaStore/wwwroot/index.html" Line="10" Column="11" />
+      <File FileName="BlazorPizzaStore/wwwroot/lib/jquery/package.json" />
+      <File FileName="BlazorPizzaStore/wwwroot/index.html" Line="9" Column="1" />
       <File FileName="BlazorPizzaStore/MainLayout.razor" Line="1" Column="1" />
+      <File FileName="BlazorPizzaStore/Pages/Index.razor" Line="14" Column="23" />
+      <File FileName="BlazorPizzaStore/Pages/PointOfSale.razor" Line="12" Column="1" />
+      <File FileName="BlazorPizzaStore/Pages/Customers.razor" Line="1" Column="1" />
+      <File FileName="BlazorPizzaStore/Pages/Orders.razor" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BlazorPizzaStore" expanded="True">
-            <Node name="BlazorPizzaStore" expanded="True">
+            <Node name="BlazorPizzaStore">
               <Node name="Pages" expanded="True" />
               <Node name="wwwroot" expanded="True">
                 <Node name="lib" expanded="True">
@@ -29,8 +33,8 @@
                     <Node name="package.json" expanded="True" />
                   </Node>
                 </Node>
+                <Node name="index.html" selected="True" />
               </Node>
-              <Node name="MainLayout.razor" selected="True" />
             </Node>
           </Node>
         </State>
