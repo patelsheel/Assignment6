@@ -33,7 +33,7 @@
 
         public bool AllowNavigate { get; set; } = true;
 
-        public List<CustomerViewModel>? Customers { get; set; }
+        public List<CustomerViewModel>? Customers { get; set; } = new List<CustomerViewModel>();
 
 
         private void SetAllowNavigate()
@@ -45,7 +45,8 @@
         {
             try
             {
-                Customers = await http.GetFromJsonAsync<List<CustomerViewModel>>("api/Customers");
+                Customers = await http.
+                GetFromJsonAsync<List<CustomerViewModel>>("api/Customers");
             }
         catch(Exception ex)
     {

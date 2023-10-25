@@ -5085,33 +5085,40 @@
     ]
   },
   "packageFolders": {
-    "/Users/sheelpatel/.nuget/packages/": {}
+    "C:\\Users\\shila\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sheelpatel/WebServerDev/Assignment 6/BlazorPizzaStore/BlazorPizzaStore/BlazorPizzaStore.csproj",
+      "projectUniqueName": "C:\\Users\\shila\\source\\repos\\Assignment6\\BlazorPizzaStore\\BlazorPizzaStore.csproj",
       "projectName": "BlazorPizzaStore",
-      "projectPath": "/Users/sheelpatel/WebServerDev/Assignment 6/BlazorPizzaStore/BlazorPizzaStore/BlazorPizzaStore.csproj",
-      "packagesPath": "/Users/sheelpatel/.nuget/packages/",
-      "outputPath": "/Users/sheelpatel/WebServerDev/Assignment 6/BlazorPizzaStore/BlazorPizzaStore/obj/",
+      "projectPath": "C:\\Users\\shila\\source\\repos\\Assignment6\\BlazorPizzaStore\\BlazorPizzaStore.csproj",
+      "packagesPath": "C:\\Users\\shila\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shila\\source\\repos\\Assignment6\\BlazorPizzaStore\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/sheelpatel/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\shila\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/sheelpatel/WebServerDev/Assignment 6/BlazorPizzaStore/PizzaStoreModels/PizzaStoreModels.csproj": {
-              "projectPath": "/Users/sheelpatel/WebServerDev/Assignment 6/BlazorPizzaStore/PizzaStoreModels/PizzaStoreModels.csproj"
+            "C:\\Users\\shila\\source\\repos\\Assignment6\\PizzaStoreModels\\PizzaStoreModels.csproj": {
+              "projectPath": "C:\\Users\\shila\\source\\repos\\Assignment6\\PizzaStoreModels\\PizzaStoreModels.csproj"
             }
           }
         }
@@ -5171,12 +5178,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+            "version": "[7.0.12, 7.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

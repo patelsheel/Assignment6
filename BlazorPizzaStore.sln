@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.4
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPizzaStore", "BlazorPizzaStore\BlazorPizzaStore.csproj", "{FB93C439-6023-45E1-84EE-135152044F79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorPizzaStore", "BlazorPizzaStore\BlazorPizzaStore.csproj", "{FB93C439-6023-45E1-84EE-135152044F79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStoreWebAPI", "PizzaStoreWebAPI\PizzaStoreWebAPI.csproj", "{774DBEE5-E303-47DB-A938-800C7CA9133B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaStoreWebAPI", "PizzaStoreWebAPI\PizzaStoreWebAPI.csproj", "{774DBEE5-E303-47DB-A938-800C7CA9133B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreDatabase", "StoreDatabase\StoreDatabase.csproj", "{FA6081D0-5148-4964-A2B7-D63352773344}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreDatabase", "StoreDatabase\StoreDatabase.csproj", "{FA6081D0-5148-4964-A2B7-D63352773344}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStoreModels", "PizzaStoreModels\PizzaStoreModels.csproj", "{85C47648-5A27-4FD8-A200-493144B1744D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaStoreModels", "PizzaStoreModels\PizzaStoreModels.csproj", "{85C47648-5A27-4FD8-A200-493144B1744D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

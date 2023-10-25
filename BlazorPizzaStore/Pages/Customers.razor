@@ -1,8 +1,95 @@
 ﻿@page "/Customers"
 
+
+@using PizzaStoreModels
+
+@inject HttpClient http
+
 <h3>Customers</h3>
 
-@code {
+<h1>Index</h1>
 
+<p>
+    <a href="CustomerCreate">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                FirstName
+            </th>
+            <th>
+                LastName
+            </th>
+            <th>
+                Address
+            </th>
+            <th>
+               City
+            </th>
+            <th>
+                State
+            </th>
+            <th>
+                PostalCode
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in CustomerList)
+        {
+            <tr>
+                <td>
+                    @customer.FirstName                
+                </td>
+                <td>
+                    @customer.LastName
+                </td>
+                <td>
+                    @customer.Address
+                </td>
+                <td>
+                    @customer.City
+                </td>
+                <td>
+                    @customer.State
+                </td>
+                <td>
+                    @customer.PostalCode
+                </td>
+                <td>
+                    <a href="@($"CustomerEdit/{customer.CustomerID}")">Edit</a> |
+                    <a href="@($"CustomerDetails/{customer.CustomerID}")">Details</a> |
+                    <a @onclick = "@(() => DeleteCustomer(customer.CustomerID))"
+                        @onclick:preventDefault="true" href="">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    public List<CustomerViewModel>? CustomerList { get; set; } = new List<CustomerViewModel>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            CustomerList = await http.
+            GetFromJsonAsync<List<CustomerViewModel>>("api/Customers");
+        }
+        catch (Exception ex)
+        {
+
+        }
+        await base.OnInitializedAsync();
+    }
+    private async void DeleteCustomer(int CustomerID)
+    {
+        var result = await http.DeleteAsync($"api/customers/{CustomerID}");
+        CustomerList = await http.GetFromJsonAsync<List<CustomerViewModel>>("api/Customers");
+        StateHasChanged();
+    }
 }
 

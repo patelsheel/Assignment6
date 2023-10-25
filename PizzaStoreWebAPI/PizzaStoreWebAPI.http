@@ -1,0 +1,5 @@
+﻿@PizzaStoreWebAPI_HostAddress = https://localhost:7039
+
+GET {{PizzaStoreWebAPI_HostAddress}}/api/customers
+
+###

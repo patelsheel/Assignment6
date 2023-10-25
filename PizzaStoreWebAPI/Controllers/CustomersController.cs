@@ -18,7 +18,7 @@ namespace PizzaStoreWebAPI.Controllers
         }
 
         // GET: api/Customers
-        [HttpGet]
+        [HttpGet(Name ="GetCustomers")]
         public async Task<ActionResult<IEnumerable<CustomerViewModel>>> GetCustomers()
         {
           if (_context.Customers == null)
