@@ -105,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -121,7 +121,7 @@
         "projectName": "PizzaStoreModels",
         "projectPath": "C:\\Users\\shila\\source\\repos\\Assignment6\\PizzaStoreModels\\PizzaStoreModels.csproj",
         "packagesPath": "C:\\Users\\shila\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shila\\Source\\Repos\\Assignment6\\PizzaStoreModels\\obj\\",
+        "outputPath": "C:\\Users\\shila\\source\\repos\\Assignment6\\PizzaStoreModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -170,7 +170,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

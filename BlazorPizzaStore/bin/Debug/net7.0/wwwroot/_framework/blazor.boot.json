@@ -231,15 +231,15 @@
       "mscorlib.dll": "sha256-8OmdVHzoN7xteY5ehp0L8R17I9QxFkH2lUVHFuslE0s=",
       "netstandard.dll": "sha256-urq+e2ZQXxmOWMRxTR92529HnUVu6+kyVnfF6SoLad8=",
       "System.Private.CoreLib.dll": "sha256-ixnF\/wVKLHZM1N0lfJufpZ41EC2LvvyiSqdW43h3Xew=",
-      "PizzaStoreModels.dll": "sha256-jfblYelnOeRrO+0X+YFDkmTHyJCgZLhVoFiU2x0HcDc=",
-      "BlazorPizzaStore.dll": "sha256-7e5CTvL1bKIpCvQrorRQtY+JC6CZaJpln\/bzoKiuxgI="
+      "PizzaStoreModels.dll": "sha256-doOSULfm7qwK5Ahbpw\/xBYIvQRxWxh7Ia7MBkor6ER8=",
+      "BlazorPizzaStore.dll": "sha256-Nut4LXmDIQ7JfupCldL5VfSKfGJFtLnfoMzRZnM9fZw="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "PizzaStoreModels.pdb": "sha256-nathJCu73m0J7nPQ1cYtl03lutSq6XUmKnm4KtRIYoI=",
-      "BlazorPizzaStore.pdb": "sha256-M+KhosUMxijNzi4RI4GCx593SeLG\/1qoM\/utdFn\/Ru8="
+      "PizzaStoreModels.pdb": "sha256-0vvP7qgBibLrCAB5B2dJ0mRCgqf9g2DUsNfRlYRmRVU=",
+      "BlazorPizzaStore.pdb": "sha256-gAJ+8UN066zlUkXagCUkUDX5Ri8G7b1m+HETv2Q8l8Y="
     },
     "runtime": {
       "dotnet.7.0.12.3uijec1hcd.js": "sha256-cPJgWy8SjMaYFeimGkYy23ls+rDZVmoC\/eMoHpqRc+4=",
